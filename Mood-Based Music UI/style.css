@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px grey;
+    
+}
+
+.mood-btn {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mood-btn button {
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.mood-btn button:hover {
+    background-color: rgb(86, 76, 212);
+    color: white;
+}
+
+ul{
+    margin-top: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+li:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+ul li{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(224, 203, 193);
+    color: white;
+    cursor: pointer;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
